@@ -116,13 +116,13 @@ st.write("---")
 st.header("📸 Recuerdos que Amo")
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.image("foto1.jpg", caption="Salidita para distraerse jsjs")
+    st.image("love/foto1.jpg", caption="Salidita para distraerse jsjs")
     if st.button("Ver Anécdota #1"): st.success("¡Ese fue una de nuestras aventuras hermosas!")
 with col2:
-    st.image("foto2.jpg", caption="Bechitos")
+    st.image("love/foto2.jpg", caption="Bechitos")
     if st.button("Ver Anécdota #2"): st.info("Sintiendo tu amor que me lleva a perder la mente.")
 with col3:
-    st.image("foto3.jpg", caption="En el cine")
+    st.image("love/foto3.jpg", caption="En el cine")
     if st.button("Ver Anécdota #3"): st.warning("Estuvo bonito y espero tener más anécdotas contigo.")
 
 st.write("---")
@@ -162,3 +162,4 @@ if submit_button and recuerdo:
     st.markdown("---")
     st.markdown("<div style='text-align: center; font-size: 30px; color: #ff69b4;'>**Gracias por ser mi mejor aventura. Te Amo.**</div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: center; font-size: 100px;'>❤️</div>", unsafe_allow_html=True)
+
